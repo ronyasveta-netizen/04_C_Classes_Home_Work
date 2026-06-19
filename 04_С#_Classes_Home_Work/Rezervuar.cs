@@ -30,11 +30,12 @@ namespace _04_С__Classes_Home_Work
             Console.WriteLine($"Material :: {material}");
             Console.WriteLine($"Volume   :: {volume}");
             Console.WriteLine($"State    :: {(isFull ? "Full" : " It's not Full ")}");
+            Console.WriteLine($"Can fill :: {CanFillMore}");
         }
 
         public override string ToString()
         {
-            return $"Material: {material, -10}  Volume: {volume, - 10}  State: {(isFull ? " Full " : " It's not Full "),-10}";
+            return $"Material: {material, -10}  Volume: {volume, - 10}  State: {(isFull ? " Full " : " It's not Full "),-10} Can fill : {CanFillMore, -10} ";
         }
         public double Volume
         {
@@ -118,7 +119,9 @@ namespace _04_С__Classes_Home_Work
             }
         }
 
-        
+        public double CanFillMore { get => MAX - volume; }
+
+
 
 
 
