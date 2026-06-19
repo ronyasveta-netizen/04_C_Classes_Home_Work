@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _04_С__Classes_Home_Work
 {
-    internal class Store
+    public class Store
     {
         private string name = "Unknown";
         private string profile = "No profile";

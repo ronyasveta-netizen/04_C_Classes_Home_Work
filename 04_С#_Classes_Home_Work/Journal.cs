@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _04_С__Classes_Home_Work
 {
-    internal class Journal
+    public class Journal
     {
         private string name = "Unknown";
         private int year = 1973;

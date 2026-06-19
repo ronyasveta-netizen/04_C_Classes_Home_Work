@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _04_С__Classes_Home_Work
 {
-    internal class Rezervuar
+    public class Rezervuar
     {
         const double MIN = 0.0;
         const double MAX = 100.0;
